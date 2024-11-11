@@ -1,15 +1,40 @@
-# Requests, JSON, and basic NLP with spaCy
+# Requests, JSON, and NLP
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+## Title: webmin-04-project
 
-## Rubric
+### Name: ANjana Dhakal, Date:11/06/2024
 
-* (Question 1) Lyrics printed: 1 pt
-* (Question 1) File created and submitted with notebook: 1 pt
-* (Question 2) Correct polarity reported: 1 pt
-* (Question 2) Question answered thoughtfully: 1 pt
-* (Question 3) Function defined as specified: 1 pt
-* (Question 3) Song lyrics retrieved and stored in separate files (0.5 pts/song): 2 pts
-* (Question 4) Polarity scores printed (with appropriate label containing song title, .25 pts/song): 1 pt
-* (Question 4) Questions answered thoughtfully: 2 pts
+### Obejectives:
+This exercise illustrates how to access web-hosted APIs, get back a response in JSONLinks to an external site. format, and extract the information we need from the JSON. Accessing APIs is a key skill for data analysts. We can use web APIs to get stock data, weather data, and much more. We'll use an API to access song lyrics or poems in this exercise. We don't care which API - there are many and they change. The skill skills are being able to (a) make an API request and (b) find the information we need in the returned response. 
+
+Helpful Hint: You can make a simple API request directly in your browser to test it BEFORE making the same request from your notebook or script.
+
+## Copy and clone base repository
+1. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner.  The base repository is available at: https://github.com/wmnlp-materials/json-sentimentLinks to an external site.
+2. Clone YOUR new repo down to your machine.
+
+## Install required packages
+1. Activate venyl virtual environment
+   ```
+    python -m venv .env
+    source .env/bin/activate
+```
+2. Install the required packages: 
+```
+    pip install -U pip setuptools wheel
+    pip install -U spacy
+    python -m spacy download en_core_web_sm
+```
+
+## Export to HTML
+Export Using Jupyter Menu
+more options (...) tap near outline in the home page of Jupyter Notebook and export as HTML.
+
+
+## Git add and commit
+```
+git add .
+git commit -m " project completed"
+git push origin main
+
+```
