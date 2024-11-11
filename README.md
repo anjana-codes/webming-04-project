@@ -25,6 +25,10 @@ This exercise illustrates how to access web-hosted APIs, get back a response in 
     pip install -U spacy
     python -m spacy download en_core_web_sm
 ```
+## Tools and Libraries
+  1. lyrics.ovh API: For accessing lyrics data.
+  2. spaCy: For natural language processing.
+  3. SpacyTextBlob: For sentiment analysis.
 
 ## Export to HTML
 Export Using Jupyter Menu
